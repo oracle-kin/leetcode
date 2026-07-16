@@ -14,14 +14,32 @@ leetcode/
 ├── CLAUDE.md              # This file
 ├── src/                    # Source root
 │   ├── Main.java           # Scratchpad for quick tests
-│   └── Leetcode{num}.java  # One file per LeetCode problem
+│   ├── array/              # Arrays & Hashing (9 files)
+│   ├── backtracking/       # Backtracking (17 files)
+│   ├── binarysearch/       # Binary Search (12 files)
+│   ├── bit/                # Bit Manipulation (6 files)
+│   ├── dp/                 # Dynamic Programming (37 files)
+│   ├── graph/              # Graphs, Topological Sort, Union Find (8 files)
+│   ├── greedy/             # Greedy (3 files)
+│   ├── heap/               # Heap / Priority Queue (1 file)
+│   ├── interval/           # Intervals (3 files)
+│   ├── linkedlist/         # Linked List (17 files)
+│   ├── math/               # Math & Geometry (11 files)
+│   ├── slidingwindow/      # Sliding Window (6 files)
+│   ├── stack/              # Stack / Monotonic Stack (9 files)
+│   ├── string/             # String (10 files)
+│   ├── tree/               # Trees, BST (23 files)
+│   ├── trie/               # Trie (3 files)
+│   └── twopointer/         # Two Pointers (25 files)
 └── .idea/                  # IntelliJ project config
 ```
 
 ## File Naming Convention
-- Each LeetCode problem gets its own file: `src/Leetcode{Number}.java`
-- Example: `src/Leetcode1.java` for "Two Sum"
+- Each LeetCode problem gets its own file: `src/<pattern>/Leetcode{Number}.java`
+- Example: `src/array/Leetcode1.java` for "Two Sum"
+- Example: `src/dp/Leetcode53.java` for "Maximum Subarray"
 - The class name matches the filename exactly
+- Each file has a `package <pattern>;` declaration matching its directory
 
 ## Code Style
 
